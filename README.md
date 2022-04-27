@@ -1,5 +1,5 @@
 # RelativeLayout_Design
-Relative Layout Design in android studio
+Relative Layout UI-Design in android studio
 
 
 

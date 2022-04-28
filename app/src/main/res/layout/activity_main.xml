@@ -375,6 +375,39 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
+    <!--Adding Gif
+        1.Insert the following dependency to the Gradle Scripts > build.gradle(Module:app).
+         implementation ‘pl.droidsonroids.gif:android-gif-drawable:1.2.22’
+        2.Note that Maven central repository should be defined in top-level build.gradle like this:
+          buildscript {
+           repositories {
+           mavenCentral()
+           }
+          }
+          allprojects {
+           repositories {
+           mavenCentral()
+           }
+          }
+        3.<pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:src="@drawable/gif_name" />
+        -->
+
+    <!--Notes
+    how to resize gif/image in android studio?
+
+        -->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="550dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/car3" />
+
 </RelativeLayout>
 
 

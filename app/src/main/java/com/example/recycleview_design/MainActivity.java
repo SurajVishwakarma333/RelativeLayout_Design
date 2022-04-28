@@ -33,8 +33,4 @@ public class MainActivity extends AppCompatActivity {
     public void location(View view){
         Toast.makeText(this, "location Selected", Toast.LENGTH_SHORT).show();
     }
-
-
-
-
 }

@@ -3,15 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.248" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable-v24/search.xml" value="0.2245" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/add.xml" value="0.248" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/background_orange.xml" value="0.1555" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/gradient.xml" value="0.248" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/home.xml" value="0.297" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2405" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/ic_launcher_background.xml" value="0.277" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/splash.xml" value="0.242" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/drawable/splashscreen.xml" value="0.242" />
-        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_auto.xml" value="0.37135416666666665" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_bike.xml" value="0.37135416666666665" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_car.xml" value="0.37135416666666665" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_main.xml" value="0.29322916666666665" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_scooter.xml" value="0.37135416666666665" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_splash_screen.xml" value="0.29322916666666665" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_tempo.xml" value="0.37135416666666665" />
+        <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/activity_truck.xml" value="0.37135416666666665" />
         <entry key="..\:/androidreference/RecycleView_Design/app/src/main/res/layout/new_acitivity.xml" value="0.29322916666666665" />
       </map>
     </option>

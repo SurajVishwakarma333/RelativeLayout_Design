@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecycleView_Design">
         <activity
+            android:name=".ScooterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BikeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TempoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TruckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CarActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

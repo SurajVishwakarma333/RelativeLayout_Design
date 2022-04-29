@@ -31,6 +31,7 @@
             android:layout_marginStart="250dp"
             android:layout_marginLeft="250dp"
             android:layout_marginTop="13dp"
+            android:onClick="Search"
             app:srcCompat="@drawable/search" />
 
         <EditText
@@ -73,6 +74,7 @@
             android:layout_height="107dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
+            android:onClick="Car"
             android:src="@drawable/car" />
     </androidx.cardview.widget.CardView>
 
@@ -104,6 +106,7 @@
             android:layout_height="107dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
+            android:onClick="Tempo"
             android:src="@drawable/tempo" />
 
     </androidx.cardview.widget.CardView>
@@ -136,6 +139,7 @@
             android:layout_height="107dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
+            android:onClick="Auto"
             android:src="@drawable/aa" />
 
     </androidx.cardview.widget.CardView>
@@ -167,6 +171,7 @@
             android:layout_height="107dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
+            android:onClick="Truck"
             android:src="@drawable/truck" />
 
     </androidx.cardview.widget.CardView>
@@ -198,6 +203,7 @@
             android:layout_height="107dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
+            android:onClick="Bike"
             android:src="@drawable/bike" />
 
     </androidx.cardview.widget.CardView>
@@ -230,6 +236,7 @@
             android:layout_height="107dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
+            android:onClick="Scooter"
             android:src="@drawable/sc" />
 
     </androidx.cardview.widget.CardView>
@@ -266,6 +273,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
+                    android:textStyle="bold"
                     android:text="Home"
                     android:textAlignment="center"
                     android:textColor="#000000"
@@ -292,6 +300,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Settings"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="#000000"
                     android:textSize="12sp" />
@@ -319,6 +328,7 @@
                     android:text="Profile"
                     android:textAlignment="center"
                     android:textColor="#000000"
+                    android:textStyle="bold"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -344,6 +354,7 @@
                     android:text="Add"
                     android:textAlignment="center"
                     android:textColor="#000000"
+                    android:textStyle="bold"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -367,6 +378,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Location"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="#000000"
                     android:textSize="12sp" />
@@ -377,7 +389,7 @@
 
     <!--Adding Gif
         1.Insert the following dependency to the Gradle Scripts > build.gradle(Module:app).
-         implementation ‘pl.droidsonroids.gif:android-gif-drawable:1.2.22’
+            implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.22'
         2.Note that Maven central repository should be defined in top-level build.gradle like this:
           buildscript {
            repositories {
@@ -389,23 +401,33 @@
            mavenCentral()
            }
           }
-        3.<pl.droidsonroids.gif.GifImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fff"
-        android:src="@drawable/gif_name" />
+        3.  <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:src="@drawable/gif_name" />
         -->
 
     <!--Notes
-    how to resize gif/image in android studio?
-
-        -->
+    how to resize or manipulate gif/image in android studio?
+    answer is ScaleType.
+    ScaleType options are used for scaling the boundary of an image to the boundary of the image view.
+    In android, ImageView comes with different configuration options to support the different ScaleType.
+    Below are the different 7 scale types that are used in android:
+        android:scaleType="center" – Center the image but does not scale the image
+        android:scaleType="centerCrop" – Scale the image uniformly
+        android:scaleType="centerInside" – Center the image inside the container, rather than making the edge match exactly
+        android:scaleType="fitCenter" – Scale the image from center
+        android:scaleType="fitEnd" – Scale the image from the end of the container.
+        android:scaleType="fitStart" – Scale the image from start of the container
+        android:scaleType="fitXY" – Fill the image from x and y coordinates of the container
+        android:scaleType="matrix" – Scale using the image matrix when drawing  -->
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="550dp"
-        android:scaleType="fitXY"
+        android:layout_marginTop="530dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/car3" />
 
 </RelativeLayout>

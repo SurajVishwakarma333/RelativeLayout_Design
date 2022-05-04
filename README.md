@@ -7,6 +7,3 @@ Relative Layout UI-Design in android studio
 
 
 
-https://.mp4
-
-
